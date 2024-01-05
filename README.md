@@ -1,4 +1,4 @@
-# Temperature Conversion Project
+# Temperature Conversion App
 
 * A simple web-based tool for converting temperatures between Celsius and Fahrenheit.
 * It includes a user-friendly interface where users can input a temperature, select the initial unit, and choose the desired unit for conversion.
