@@ -4,6 +4,9 @@
 * It includes a user-friendly interface where users can input a temperature, select the initial unit, and choose the desired unit for conversion.
   * The conversion is then performed dynamically, and the result is displayed on the page.
 
+![image](https://github.com/adamzavien/Temperature-Conversion/assets/74973987/d372f468-bd66-4505-a198-544b878b0c3e)
+
+
 ## Features:
 * User-Friendly Interface: The project offers a clean and intuitive interface, allowing users to easily input temperatures and select conversion units.
 * Dynamic Conversion: The temperature conversion is performed in real-time using JavaScript, providing instant feedback to users.
