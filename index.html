@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>❄️ Temperature Conversion ☀️</title>
+</head>
+
+<body>
+    <!-- Header -->
+    <h1>Temperature Conversion 🌡️</h1>
+
+    <!-- Temperature Conversion Form -->
+    <form>
+        <!-- Input for temperature -->
+        <label for="temperature-input">Temperature: </label>
+        <input type="number" id="temperature-input" value="0" oninput="convertTemp()">
+
+        <!-- Select input for the unit before conversion -->
+        <label for="temp-unit-before">Unit: </label>
+        <select name="temp-unit-before" id="temp-unit-before" onchange="convertTemp()">
+            <option value=""></option>
+            <option value="celcius">Celcius (°C)</option>
+            <option value="fahrenheit">Fahrenheit (°F)</option>
+        </select><br><br>
+
+        <!-- Select input for the unit after conversion -->
+        <label for="temp-unit-after">Convert to </label>
+        <select name="temp-unit-after" id="temp-unit-after" onchange="convertTemp()">
+            <option value=""></option>
+            <option value="celcius">Celcius (°C)</option>
+            <option value="fahrenheit">Fahrenheit (°F)</option>
+        </select>
+
+        <!-- Result display -->
+        <p id="result" text-align="end"></p>
+    </form>
+
+    <!-- JavaScript file inclusion for temperature conversion logic -->
+    <script src="index.js"></script>
+</body>
+
+</html>
